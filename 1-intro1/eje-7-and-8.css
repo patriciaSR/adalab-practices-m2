@@ -1,0 +1,14 @@
+.button {
+  background-color: aqua;
+  padding: 30px;
+  border: 3px solid green;
+  color: green;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.off {
+  opacity: 0.5;
+  background-color: grey;
+}
