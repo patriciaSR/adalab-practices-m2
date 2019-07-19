@@ -1,0 +1,26 @@
+.main {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title {
+  color: red;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  max-width: 350px;
+}
+
+.wave {
+  color: blue;
+  transition: font-size ease 1s, transform ease 5s;
+}
+
+.wave:hover {
+  display: inline-block;
+  color: blue;
+  font-size: 100px;
+  transform: rotate(360deg);
+}
