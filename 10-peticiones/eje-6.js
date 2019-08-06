@@ -43,7 +43,7 @@ fetch(ENDPOINTdogsList)
 
 
 function renderDogName(breed) {
-  const text = document.createElement('p');
+  const text = document.createElement('h1');
   const textContent = document.createTextNode(`La raza de perro es ${breed}`);
   text.appendChild(textContent);
   document.querySelector('body').appendChild(text);
